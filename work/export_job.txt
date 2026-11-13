@@ -1,0 +1,4 @@
+# one job per line. replace MY_ASM with your model name (no extension).
+# fields: DIR|directory   /   EXPORT|model|asm-or-prt|out-basename|profile
+DIR|C:/models
+EXPORT|MY_ASM|asm|__PACKAGE_ROOT__/out/MY_ASM_AP242|__PACKAGE_ROOT__/profiles/ap242.dep_step

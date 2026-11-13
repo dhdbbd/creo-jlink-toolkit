@@ -1,0 +1,6 @@
+NAME       flatasm
+EXEC_FILE  __PACKAGE_ROOT__\c-toolkit\flatasm.dll
+TEXT_DIR   __PACKAGE_ROOT__\c-toolkit
+STARTUP    dll
+REVISION   18
+END

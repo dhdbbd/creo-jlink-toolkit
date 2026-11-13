@@ -1,0 +1,6 @@
+NAME       sync_export
+EXEC_FILE  __PACKAGE_ROOT__\c-toolkit\sync_export.dll
+TEXT_DIR   __PACKAGE_ROOT__\c-toolkit
+STARTUP    dll
+REVISION   18
+END

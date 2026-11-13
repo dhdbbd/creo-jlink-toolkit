@@ -1,0 +1,27 @@
+# PTC 专有运行时 —— 不入库，从本机 Creo 安装目录获取
+jlink/lib/*.jar
+jlink/runtime/
+
+# Java 构建产物
+*.class
+jlink/service/build/
+jlink/service/logs/
+
+# Creo 会话产物与日志
+work/logs/
+work/trail/
+work-asmflat/trail/
+work-asmflat/logs/
+out/
+*.log.*
+*.tst
+*.err
+*.trail
+
+# 本地配置（configure.ps1 改写后的机器特定文件）
+# 注意：仓库中的 protk.dat / config.pro / run_server.bat 含 __PLACEHOLDER__ 占位符
+# 本地运行 configure.ps1 后会被改写为真实路径，请勿回提交
+
+# 系统杂项
+Thumbs.db
+Desktop.ini

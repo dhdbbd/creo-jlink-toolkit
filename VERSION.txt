@@ -1,0 +1,13 @@
+﻿creo-jlink-toolkit 1.4.0
+发布日期: 2026-11-13
+Creo 版本: 9.0.8.0 (x64)
+Java: 需自备 JRE 11+（推荐 Adoptium Temurin 11）
+内容:
+  jlink\        异步 HTTP 服务（Java 源码 + native dll）
+  c-toolkit\    同步作业引擎（sync_export.dll / flatasm.dll + 源码）
+  work\, work-asmflat\   Pro/TOOLKIT 会话目录（protk.dat / config.pro）
+  profiles\     AP242 等导出配置
+  scripts\      拉起、批量导出、日志清理
+  samples\      作业模板
+说明: 本仓库不含 PTC 专有组件（pfcasync.jar / otk.jar / JRE）。
+      使用前从本机 Creo 安装目录与 Adoptium 官网获取，见 README.md。
